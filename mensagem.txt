@@ -1,0 +1,7 @@
+<p>
+Seja Bem vindo ao seu novo e-mail<br/>
+Confira as novidades no portal http://www.postfix.org<br/><br/>
+
+
+Departamento de Sistemas
+</p>

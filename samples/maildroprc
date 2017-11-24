@@ -1,0 +1,17 @@
+#!/bin/bash
+echo -e "# Configuração  default para uso com Maildrop.
+# Todos usuários serão criados com esse filtro.
+# Não alterar as variáves constantes neste ar-
+# quivo, e só mecha se vc souber  o  que  está
+# fazendo.
+
+logfile maildrop.log
+
+xfilter \"/usr/bin/spamassassin -x\"
+
+if (/^X-Spam-Status: *Yes/)
+{
+       to $BASE/$DOMAIN/$USER/Maildir/.Spam/
+}
+
+# END"
